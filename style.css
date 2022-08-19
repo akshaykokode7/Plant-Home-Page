@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Allerta', sans-serif;
+}
+
+#navbarMonstera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    width: 80vw;
+    margin: auto;
+}
+
+#navFirst img{
+    width: 140px;
+}
+
+#navMid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navMid div{
+    margin-right: 60px;
+}
+
+#navMid div:first-child{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+}
+
+#navEnd{
+    display: flex;
+}
+#navEnd div{
+    margin-right: 30px;
+}
+
+#midWhole{
+    width: 80vw;
+    margin: auto;
+}
+
+#midWholePart1{
+    width: 50vw;
+    line-height: 1.3;
+    margin-top: 80px;
+    margin-bottom: 45px;
+    
+}
+
+#monstera {
+    font-size: 160px;
+}
+
+#midWholePart11 div ul li:nth-child(3), #midWholePart11 div ul li:nth-child(4){
+    position: relative;
+    font-size: 16px;
+    padding-bottom: 2px;
+    padding-top: 0;
+}
+
+#imgMain{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 10;
+    height: 600px;
+}
+
+#midWholePart121{
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    
+}
+
+#midWholePart122 img{
+    height: 20px;
+   margin-right: 60px;
+   margin-bottom: -5px;
+   
+}
+
+#midWholePart122{
+    position: absolute;
+    right: 33rem;
+    bottom: 20px;
+}
+#midWholePart121 div h1{
+    background-color: #466d4f;
+    color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+#midWholePart13{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.midWholePart13Parts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+#feeding {
+    height: 60px;
+    margin-right: 16px;
+}
+
+#light{
+    height: 60px;
+    margin-right: 16px;
+}
+
+#care{
+    height: 60px;
+    margin-right: 16px;
+}
+
+.text{
+    font-size: 12px;
+    
+}
