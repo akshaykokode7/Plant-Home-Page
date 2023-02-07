@@ -9,7 +9,7 @@ body {
     font-family: 'Allerta', sans-serif;
 }
 
-#navbarMonstera {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,38 +18,38 @@ body {
     margin: auto;
 }
 
-#navFirst img{
+.navLogo img{
     width: 140px;
 }
 
-#navMid{
+.navMenu{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#navMid div{
+.navMenu div{
     margin-right: 60px;
 }
 
-#navMid div:first-child{
+.navMenu div:first-child{
     padding-bottom: 5px;
     border-bottom: 2px solid #000;
 }
 
-#navEnd{
+.navEnd{
     display: flex;
 }
-#navEnd div{
+.navEnd div{
     margin-right: 30px;
 }
 
-#midWhole{
+.hero{
     width: 80vw;
     margin: auto;
 }
 
-#midWholePart1{
+.heroPart1{
     width: 50vw;
     line-height: 1.3;
     margin-top: 80px;
@@ -61,7 +61,8 @@ body {
     font-size: 160px;
 }
 
-#midWholePart11 div ul li:nth-child(3), #midWholePart11 div ul li:nth-child(4){
+.heroPart11 div ul li:nth-child(3), 
+.heroPart11 div ul li:nth-child(4){
     position: relative;
     font-size: 16px;
     padding-bottom: 2px;
@@ -76,7 +77,7 @@ body {
     height: 600px;
 }
 
-#midWholePart121{
+.heroPart121{
     font-size: 12px;
     display: flex;
     justify-content: flex-start;
@@ -85,19 +86,20 @@ body {
     
 }
 
-#midWholePart122 img{
+.heroPart122 img{
     height: 20px;
    margin-right: 60px;
    margin-bottom: -5px;
    
 }
 
-#midWholePart122{
+.heroPart122{
     position: absolute;
     right: 33rem;
     bottom: 20px;
 }
-#midWholePart121 div h1{
+
+.heroPart121 div h1{
     background-color: #466d4f;
     color: #ffffff;
     padding: 15px 40px;
@@ -105,14 +107,14 @@ body {
     margin-top: 20px;
 }
 
-#midWholePart13{
+.heroPart13{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
 }
 
-.midWholePart13Parts{
+.heroPart13Parts{
     display: flex;
     justify-content: space-between;
     align-items: center;
